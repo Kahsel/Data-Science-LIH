@@ -1,0 +1,77 @@
+1.
+a. Numbers: Represent numeric values in Python, such as integers (int), floating-point numbers (float), and complex numbers (complex). They are used for mathematical operations.
+b. String: A sequence of characters enclosed in single, double, or triple quotes. Strings are used to store and manipulate text data.
+c. List: An ordered, mutable collection of items that can hold mixed data types. Lists are enclosed in square brackets [].
+d. Tuple: An ordered, immutable collection of items, often used to store related data that shouldn’t change. Tuples are enclosed in parentheses ().
+e. Dictionary: An unordered, mutable collection of key-value pairs. Keys are unique, and dictionaries are enclosed in curly braces {}.
+
+2. 
+a. 4 * (6 + 5) is 44
+b. 4 * 6 + 5 is 29
+c. 4 + 6 * 5 is 34
+
+3. What is the type result for 3 + 1.5 + 
+     Answer is Float
+
+4. What will you use to find a number's square root, as well as it's square
+num = 5
+square = num ** 2
+print(square)
+
+5. 
+  a.   word = "hello"
+        print(word[1])
+  b.   word = "hello"
+        reversed_word = word[::-1]
+        print(reversed_word) 
+
+  c. First Method of Returning "o" using positive indexing: 
+word = "hello"
+print(word[4]) 
+
+d. Second method using negative indexing
+word = "hello"
+print(word[-1])  
+
+6. LIST: two ways of returning list [0,0,0]
+Method 1 using multiplication: 
+a = [0] * 3
+print(a)  //gives [0, 0, 0]
+Method 2 using loop:
+a = [0 for _ in range(3)]
+print(a)  //gives [0, 0, 0]
+
+7. Reassigned "hello" in this nested list to say "goodbye" instead
+my_list = [1, 2, [3, 4, 'hello']]
+my_list[2][2] = "goodbye"
+print(my_list[2][2])
+//gives [1, 2, [3, 4, 'goodbye']]
+
+8. Sorting: sort out the list: list4 = [5,4,3,2,1]
+list4 = [5, 4, 3, 2, 1]
+list4.sort()
+print(list4)  //output is [1, 2, 3, 4, 5]
+
+9. Dictionaries 
+a.     d = {'simple_key': 'hello'}
+        print(d['simple_key'])   
+b.     d = {'k1': {'k2': 'hello'}}
+        print(d['k1']['k2'])     
+c.     d = {'k1': [{'nest_key': ['this is deep', ['hello']]}]}
+        print(d['k1'][0]['nest_key'][1][0])   
+
+10. What's the major difference between Tuples and List?
+Lists are mutable, you can change, add, or remove items you creat them while Tuples are immutable, once created, they cannot be changed.
+
+11. How to create a Tupls
+tuple = (1, 2, 3)
+print(tuple) 
+
+12. SETS
+What's Unique About Sets: A set in Python is unique because it only keeps distinct items, has no order, and supports fast mathematical operations.
+13. Use a set to find the unique values of the list below
+List5 = [1,2,2,33,4,4,11,22,3,3,2]
+
+list5 = [1, 2, 2, 33, 4, 4, 11, 22, 3, 3, 2]
+unique_values = set(list5)
+print(unique_values)
